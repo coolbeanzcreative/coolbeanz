@@ -1788,7 +1788,7 @@
 	.box {
 		border-radius: 0;
 		border: solid 1px;
-		margin-bottom: 2em;
+		margin-bottom: 0em;
 		padding: 1.5em;
 	}
 
@@ -3270,37 +3270,6 @@
 						border-top: 0 !important;
 					}
 
-
-
-
-            ul.sublinks {
-              list-style: none;
-      				padding-left: 1em;
-            }
-
-      				ul.sublinks > li {
-      					padding: 0;
-      				}
-
-      					ul.sublinks > li > a:not(.button) {
-      						border: 0;
-      						border-top: solid 1px rgba(255, 255, 255, 0.25);
-      						color: inherit;
-      						display: block;
-      						line-height: 3.5em;
-      						text-decoration: none;
-      					}
-
-      					ul.sublinks > li > .button {
-      						display: block;
-      						margin: 0.5em 0 0 0;
-      					}
-
-      					ul.sublinks > li:first-child > a:not(.button) {
-      						border-top: 0 !important;
-      					}
-
-
 		#menu .close {
 			text-decoration: none;
 			-moz-transition: color 0.2s ease-in-out;
@@ -3706,18 +3675,18 @@
 			display: block;
 			background: #FFF;
 			padding: 8em;
-			text-align: right;
+			text-align: left;
 			position: relative;
 		}
 
-			.post .content:before {
+		/*	.post .content:before {
 				content: '';
 				display: inline-block;
 				height: 100%;
 				vertical-align: middle;
 				margin-right: -0.25em;
-			/* Adjusts for spacing */
-		}
+			/* Adjusts for spacing
+		}*/
 
 			.post .content .inner {
 				display: inline-block;
@@ -4507,7 +4476,7 @@
 		@media screen and (max-width: 1280px) {
 
 			.post .content {
-				padding: 4em;
+				padding: 4em 2em 4em;
 			}
 
 				.post .content .postnav {
@@ -4574,7 +4543,7 @@
 		@media screen and (max-width: 736px) {
 
 			.post .content {
-				padding: 2em 1.5em 3em 1.5em;
+				padding: 2.5em 1.5em;
 			}
 
 				.post .content header h2 {
